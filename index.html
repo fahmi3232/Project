@@ -48,6 +48,24 @@
 		.header ul li a:hover{
 			color: black;
 		}
+		.home{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			position: relative;
+			z-index: 0;
+			overflow: hidden;
+		}
+		.home .content .left{
+			flex: 1 1 39rem;
+		}
+		.home .content .right{
+			flex: 1 139rem;
+		}
+		.home .content .right img{
+			width: 100%;
+		}
 	</style>
 </head>
 <body>
@@ -65,7 +83,7 @@
 			</div>
 	</section>
 	<section>
-		<div class="row">
+		<div class="home">
 			<div class="content">
 				<div class="left">
 					<h1>Hosting Super Fast With Singapura Server</h1>
