@@ -6,14 +6,17 @@
 	<title>GIT New</title>
 
 	<style>
+		*{
+			margin: 0 auto;
+		}
 		section{
-			min-height: 100vh;
     		padding: 1rem 10%;
     		padding-top: 8.5rem;
 		}
 		.header{
 			width: 100%;
-			background-color: blue;
+			height: 70px;
+			background-color: #9932CC;
 			text-align: center;
 			position: fixed;
 			display: flex;
@@ -22,17 +25,28 @@
 		}
 		.logo img{
 			height: 60px;
-			position: relative;
+			position: absolute;
 			float: left;
+			margin-top: 4px;
 		}
 		.header ul{
 			display: flex;
-
+			margin-top: 20px;
+			text-decoration: none;
+			list-style: none;
 		}
 		.header ul li{
 			float: right;
 			margin-right: 25px;
-			float: right;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.header ul li a{
+			font-size: 15px;
+			color: #fff;
+			text-decoration: none;
+		}
+		.header ul li a:hover{
+			color: black;
 		}
 	</style>
 </head>
@@ -43,12 +57,25 @@
 					<img src="../logo.png" alt="">
 				</div>
 				<ul>
-					<li>home</li>
-					<li>About</li>
-					<li>Contact</li>
-					<li>Address</li>
+					<li><a href="">Home</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+					<li><a href="">New</a></li>
 				</ul>
 			</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="content">
+				<div class="left">
+					<h1>Hosting Super Fast With Singapura Server</h1>
+					<p>Mulai bisnismu dengan menggunakana layanan hosting kami dan dapatkan keuntungannya sekarang</p>
+				</div>
+				<div class="right">
+					<img src="slider.png" alt="">
+				</div>
+			</div>
+		</div>
 	</section>
 </body>
 </html>
